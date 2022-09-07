@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;900&family=Open+Sans&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+select,input{
+  outline: none;
+}
+body{
+  background:#F0F0F0;
+  font-weight: 500;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+.container{
+  width: 1100px;
+  margin: 0 auto;
+  padding: 0 85px;
+}
+.d-flex{
+  display: flex;
+}
+@import './_header';
+@import './_main';
+@import './_footer.scss';

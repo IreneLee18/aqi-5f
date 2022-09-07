@@ -1,0 +1,16 @@
+footer{
+background: #000;
+color: #FFF;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  div{
+    &:last-child{
+      font-weight: normal;
+    }
+  }
+}

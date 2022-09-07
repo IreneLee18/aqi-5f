@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;900&family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+select, input {
+  outline: none;
+}
+
+body {
+  background: #F0F0F0;
+  font-weight: 500;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 0 85px;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 53px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.header select {
+  width: 330px;
+  height: 56px;
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 3px solid #000000;
+}
+
+.header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  border-left: 3px solid #000000;
+}
+
+.header ul li {
+  width: 121.67px;
+}
+
+.header ul div:first-child {
+  height: 54px;
+  line-height: 54px;
+  border-top: 3px solid #000000;
+  border-bottom: 3px solid #000000;
+  border-right: 3px solid #000000;
+}
+
+.header ul div:last-child {
+  background: #FFF;
+  height: 56px;
+  border-bottom: 3px solid #000000;
+  border-right: 3px solid #000000;
+}
+
+.header ul .shortDescribe {
+  line-height: 56px;
+}
+
+.header ul .longDescribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pickArea {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 40px;
+}
+
+.city {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 32px 0;
+}
+
+.city .cityName {
+  font-size: 36px;
+}
+
+.city .line {
+  width: 786px;
+  height: 1px;
+  border-top: 3px dotted #000;
+}
+
+.describe-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.describe-card {
+  width: 350px;
+}
+
+.describe-name, .describe-number {
+  height: 97px;
+  line-height: 97px;
+  text-align: center;
+  border: 3px solid #000000;
+}
+
+.describe-name {
+  background: #FFF;
+  font-size: 36px;
+  width: 190px;
+}
+
+.describe-number {
+  font-size: 48px;
+  width: 160px;
+  border-left: none;
+}
+
+.describe .card {
+  border: 3px solid #000000;
+  border-top: none;
+  background: #FFF;
+  padding: 0 30px;
+  margin-bottom: 40px;
+}
+
+.describe .card li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #000000;
+  padding: 16px 0;
+}
+
+.describe .card li:last-child {
+  border-bottom: none;
+}
+
+.describe .card li div {
+  font-size: 24px;
+}
+
+.describe .card li div span {
+  font-weight: normal;
+  font-size: 16px;
+  margin-left: 8px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+  background: #000;
+  color: #FFF;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer div:last-child {
+  font-weight: normal;
+}
+/*# sourceMappingURL=all.css.map */

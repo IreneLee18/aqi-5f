@@ -1,0 +1,85 @@
+.pickArea{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 40px;
+}
+.city {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 32px 0;
+
+  .cityName {
+    font-size: 36px;
+  }
+
+  .line {
+    width: 786px;
+    height: 1px;
+    border-top: 3px dotted #000;
+  }
+}
+
+.describe {
+  &-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &-card {
+    width: 350px;
+  }
+
+  &-name,
+  &-number {
+    height: 97px;
+    line-height: 97px;
+    text-align: center;
+    border: 3px solid #000000;
+  }
+
+  &-name {
+    background: #FFF;
+    font-size: 36px;
+    width: 190px;
+  }
+
+  &-number {
+    font-size: 48px;
+    width: 160px;
+    border-left: none;
+  }
+
+
+  .card {
+    border: 3px solid #000000;
+    border-top: none;
+    background: #FFF;
+    padding: 0 30px;
+    margin-bottom: 40px;
+
+    li {
+
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #000000;
+      padding: 16px 0;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      div {
+        font-size: 24px;
+
+        span {
+          font-weight: normal;
+          font-size: 16px;
+          margin-left: 8px;
+          font-family: 'Open Sans', sans-serif;
+        }
+      }
+    }
+  }
+}
