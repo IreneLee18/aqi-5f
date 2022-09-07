@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AQI-5f/static/css/main.d51145a1.css",
+    "main.js": "/AQI-5f/static/js/main.8139505b.js",
+    "static/js/787.5fa88b4b.chunk.js": "/AQI-5f/static/js/787.5fa88b4b.chunk.js",
+    "index.html": "/AQI-5f/index.html",
+    "main.d51145a1.css.map": "/AQI-5f/static/css/main.d51145a1.css.map",
+    "main.8139505b.js.map": "/AQI-5f/static/js/main.8139505b.js.map",
+    "787.5fa88b4b.chunk.js.map": "/AQI-5f/static/js/787.5fa88b4b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d51145a1.css",
+    "static/js/main.8139505b.js"
+  ]
+}
